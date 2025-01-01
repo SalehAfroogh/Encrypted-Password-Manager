@@ -1,6 +1,6 @@
 # Password Manager
 
-A simple and secure Python-based password manager that encrypts passwords using the `cryptography` library. This project allows users to add and view encrypted passwords stored in a file.
+A secure Python-based password manager that encrypts passwords using the `cryptography` library. This project allows users to add and view encrypted passwords stored in a file.
 
 ## Features
 - **Password Encryption**: Ensures passwords are stored securely using `Fernet` encryption.
