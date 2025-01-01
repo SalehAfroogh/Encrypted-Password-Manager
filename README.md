@@ -38,10 +38,11 @@ Copy code
 python password_manager.py
 Choose from the following options:
 
-Add Password: Save a new username-password pair.
-View Passwords: View all stored passwords (decrypted).
-Quit: Exit the program.
-Test
+### Add Password: Save a new username-password pair.
+### View Passwords: View all stored passwords (decrypted).
+### Quit: Exit the program.
+
+# Test
 Run the test script to ensure everything works as expected:
 
 bash
@@ -50,13 +51,10 @@ python test_password_manager.py
 File Structure
 bash
 Copy code
-.
-├── password_manager.py      # Main script
-├── mykey.key                # Encryption key file
-├── passwords.txt            # Encrypted passwords storage
-├── test_password_manager.py # Test file
-└── README.md                # Documentation
-Security Notes
+
+<img width="497" alt="Screenshot 2025-01-01 at 10 56 06 AM" src="https://github.com/user-attachments/assets/15871e64-a55f-4c1e-b335-aa59cb0e9118" />
+
+# Security Notes
 The encryption key (mykey.key) is critical to decrypt passwords. Keep it secure and do not share it.
 If the key is lost, all stored passwords will be irretrievable.
 Ensure passwords.txt is stored in a secure location with restricted access.
@@ -64,6 +62,7 @@ Future Enhancements
 Add a GUI for a better user experience.
 Implement password validation and strength checks.
 Add support for password generation.
-License
+
+# License
 MIT License
 
