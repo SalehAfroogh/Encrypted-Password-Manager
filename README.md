@@ -7,7 +7,7 @@ A secure Python-based password manager that encrypts passwords using the `crypto
 - **Key Management**: Generates and securely stores an encryption key.
 - **User-Friendly Interface**: Easy-to-use terminal-based interface.
 
-## Requirements
+## Requirements:
 - Python 3.8+
 - `cryptography` library
 
