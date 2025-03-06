@@ -2,7 +2,7 @@
 
 A secure Python-based password manager that encrypts passwords using the `cryptography` library. This project allows users to add and view encrypted passwords stored in a file.
 
-## Features
+## Features:
 - **Password Encryption**: Ensures passwords are stored securely using `Fernet` encryption.
 - **Key Management**: Generates and securely stores an encryption key.
 - **User-Friendly Interface**: Easy-to-use terminal-based interface.
